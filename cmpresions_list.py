@@ -47,3 +47,14 @@ lista = [1, 2, 3, 4, 5]
 doble_lista = [x*2 for x in lista]
 print(doble_lista)
 
+# 2. Filtrar y Transformar en un Solo Paso
+# Tienes una lista de palabras ["sol", "mar", "montaña", "rio", "estrella"] 
+# y quieres obtener una nueva lista con las palabras que tengan más de 3 letras y estén en mayúsculas.
+
+words = ["sol", "mar", "montaña", "rio", "estrella"]
+
+
+
+filtered_words = [word.upper() for word in words if len(words) >3]
+print(filtered_words)
+
