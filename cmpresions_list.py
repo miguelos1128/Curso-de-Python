@@ -33,3 +33,17 @@ for i in range (len(matrix[0])):
     transposed.append(transposed_row)
 
 print("Transpuesta",transposed)
+print("**************** Ejercios:***************")
+
+##Retos del la clase
+
+#1.Doble de los Números
+    #Dada una lista de números [1, 2, 3, 4, 5], 
+    # crea una nueva lista que contenga el doble 
+    # de cada número usando una List Comprehension.
+
+lista = [1, 2, 3, 4, 5]
+
+doble_lista = [x*2 for x in lista]
+print(doble_lista)
+
