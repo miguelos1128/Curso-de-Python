@@ -53,8 +53,19 @@ print(doble_lista)
 
 words = ["sol", "mar", "montaña", "rio", "estrella"]
 
-
-
 filtered_words = [word.upper() for word in words if len(words) >3]
 print(filtered_words)
+
+# Extraer Información de una Lista de Diccionarios
+# Dada una lista de diccionarios que representan personas:
+# Extrae una lista de nombres de personas que viven en “Madrid” y tienen más de 30 años.
+personas = [
+    {"nombre": "Juan", "edad": 25, "ciudad": "Madrid"},
+    {"nombre": "Ana", "edad": 32, "ciudad": "Madrid"},
+    {"nombre": "Pedro", "edad": 35, "ciudad": "Barcelona"},
+    {"nombre": "Laura", "edad": 40, "ciudad": "Madrid"}
+]
+
+personas_of_madrid = [name["nombre"] for name in personas if name["ciudad"]=="Madrid" and name["edad"] > 30 ]
+print(personas_of_madrid)
 
