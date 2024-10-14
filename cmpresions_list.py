@@ -69,3 +69,11 @@ personas = [
 personas_of_madrid = [name["nombre"] for name in personas if name["ciudad"]=="Madrid" and name["edad"] > 30 ]
 print(personas_of_madrid)
 
+# List Comprehension con un else
+# Dada una lista de números [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+# crea una nueva lista multiplicando por 2 los números pares y dejando los impares como están.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+numbers2 = [number*2 if number%2 ==0 else number for number in numbers]
+print(numbers2)
