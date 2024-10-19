@@ -4,11 +4,11 @@ to_do = ["dirgirnos al Hote",
          "Volver al Hotel"]
 print(to_do)
 numbers = [1,2,3,4, "cinco"]
-print(type(numbers))
+print(type(numbers))#Tipo de lista
 
 mix = ["uno",2,3.14, True, [1,2,3]]
 print(mix)
-print(len(mix))
+print(len(mix))#Tamaño de la lista
 print("Primer elemento", mix[0] )
 print("Segundo elemento", mix[1] )
 print("Ultimo elemento", mix[-1] )
@@ -30,5 +30,5 @@ del numbers[-1]#Elimina la ultima posición
 print(numbers)
 del numbers[:2]#elimina de la posción 0 a 2
 print(numbers)
-del numbers
-print(numbers)
+del numbers #Elimina todos la lista
+print(numbers)  
