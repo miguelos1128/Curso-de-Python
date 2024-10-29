@@ -10,8 +10,6 @@ for fruta in fruits:
     print(fruta)
     if fruta=="Naranja":
         print("Encontrada la fruta Naranja")
-        
-
 
 # ***************
 x = 0
