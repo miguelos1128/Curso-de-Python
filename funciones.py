@@ -3,6 +3,6 @@ def greet(name, last_name="Sin apellido"):
 
 greet("Mike", "Osornio")
 greet("Carli")
-greet(last_name="Osornio",name="Mike")
+greet(last_name="Osornio",name="Mike")#Sin ubicación 
 #Se agrega un vaor por defecto en caso que que no se 
 #Envie ningun dato
