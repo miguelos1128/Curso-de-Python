@@ -75,6 +75,8 @@ class Concesionario:
 #Crear Vehiculos
 auto1 = Vehiculo("Pointer", "2006", 64000)
 auto2 = Vehiculo("Polo", "2021", 260000)
+auto3 = Vehiculo("Honda", "Civic", 290000)
+auto4 = Vehiculo("Toyota", "Corola", 290000)
 
 #Crear Cliente
 cliente1 = Cliente("Miguel Angel", "001")
